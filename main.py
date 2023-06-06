@@ -22,8 +22,8 @@ def preprocess_data(data):
     return normalized_data
 
 # Define your training data and labels
-training_data = np.array([...])  # Replace with your training data
-labels = np.array([...])  # Replace with your corresponding labels
+training_data = np.array([...])  # Enter 
+labels = np.array(['torque_1', 'torque_2', 'angle_1', 'angle_2', 'force_1', 'force_2'])  
 
 # Preprocess the training data
 preprocessed_data = preprocess_data(training_data)
